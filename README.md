@@ -2,8 +2,6 @@
 
 A simple and responsive **To-Do List application** built with **HTML**, **CSS**, and **JavaScript**. This project is beginner-friendly and demonstrates essential concepts of frontend development such as DOM manipulation, local storage, and responsive design.
 
----
-
 ## 🌟 Features  
 
 - **Add Tasks**: Create new tasks with a user-friendly input form.
@@ -14,13 +12,9 @@ A simple and responsive **To-Do List application** built with **HTML**, **CSS**,
   
 - **Responsive Design**: Fully responsive UI that works seamlessly on desktop, tablet, and mobile devices.  
 
----
-
 ## 🚀 Demo  
 
 👉 **Live Preview**: [To-Do List App Live](https://to-do-list-app-r9oo.vercel.app/)  
-
----
 
 ## 📂 Project Structure  
 
