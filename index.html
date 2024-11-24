@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta information for character encoding and responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Document have a meta description -->
+    <meta name="description" content="HTML, CSS And JavaScript To-Do List App | With Local Storage">
+
+    <title>HTML, CSS And JavaScript To-Do List App | With Local Storage</title>
+
+    <!-- Font Awesome for icons -->
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+
+    <!-- Google Fonts -->
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Link to custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main app container -->
+    <div class="app-container">
+        <!-- Form for adding new tasks -->
+        <form class="app-form">
+            <input
+                type="text" 
+                name="app-input" 
+                id="app-input" 
+                class="app-input" 
+                placeholder="Add New Task"
+            >
+            <!-- Add Task Button -->
+            <button class="app-btn" aria-label="add task button"> 
+                <i class="fa-solid fa-plus"></i>
+            </button>
+        </form>
+
+        <!-- Tasks container -->
+        <div class="tasks">
+            <!-- Example task items (dynamically populated later by JavaScript) -->
+        </div>
+
+        <!-- Footer section with message and clear button -->
+        <div class="app-footer">
+            <!-- Message for task count -->
+            <p class="app-msg">You have 2 pending tasks</p>
+            <!-- Clear all tasks -->
+            <button class="app-btn clear-btn">Clear</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

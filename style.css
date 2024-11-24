@@ -1,0 +1,138 @@
+
+/* Resetting margins, paddings, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Setting root font size for easier rem calculations */
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+/* Styling the body for centering content */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #081c29;
+    font-family: "Rubik", sans-serif;
+    color: #000;
+}
+
+/* App container styling */
+.app-container {
+    width: 600px;
+    max-width: 100%;
+    margin: 1.6rem;
+    padding: 1.6rem;
+    background-color: white;
+    border-radius: 11px;
+}
+
+/* Form styling */
+.app-form {
+    display: flex;
+    margin-bottom: 1.6rem;
+}
+
+/* Input box styling */
+.app-input {
+    width: calc(100% - 5rem);
+    padding: 1.6rem;
+    background-color: transparent;
+    border: 1px solid #D8D8D8;
+    border-right: none;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    letter-spacing: 0.5px;
+    font-size: 2rem;
+}
+
+/* Remove outline when input is focused */
+.app-input:focus {
+    outline: none;
+}
+
+/* Change Input Placeholder Color */
+.app-input::placeholder {
+    color: #000;
+}
+
+/* Styling for all buttons */
+.app-btn {
+    width: 5rem;
+    border: none;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* Add task button background */
+.app-form button {
+    border: 1px solid #00abf0;
+    border-left: none;
+    background-color: #00abf0;
+}
+
+/* Tasks container styling */
+.tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem; /* Space between tasks */
+}
+
+/* Individual task styling */
+.task {
+    display: flex;
+}
+
+/* Task title box styling */
+.task-title {
+    width: calc(100% - 5rem);
+    padding: 1.6rem;
+    background-color: #F3F1F4;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+}
+
+/* Delete button styling */
+.task button {
+    background-color: #E44D40;
+}
+
+/* Footer Styling */
+.app-footer {
+    padding-left: 0.4rem;
+    margin-top: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Task count message Styling */
+.app-msg {
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+}
+
+/* Clear Button Styling */
+.clear-btn {
+    width: fit-content;
+    padding: 1.2rem 2.4rem;
+    background-color: #00abf0;
+    border-radius: 9px;
+    letter-spacing: 0.5px;
+}
+
+/* Disabled Clear Button */
+.clear-btn.disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+} /* When ther are not tasks */
