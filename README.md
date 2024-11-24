@@ -2,6 +2,8 @@
 
 A simple and responsive **To-Do List application** built with **HTML**, **CSS**, and **JavaScript**. This project is beginner-friendly and demonstrates essential concepts of frontend development such as DOM manipulation, local storage, and responsive design.
 
+---
+
 ## 🌟 Features  
 
 - **Add Tasks**: Create new tasks with a user-friendly input form.
@@ -10,11 +12,15 @@ A simple and responsive **To-Do List application** built with **HTML**, **CSS**,
   
 - **Persistent Data**: Tasks are saved in the browser's local storage, so they remain even after refreshing the page.
   
-- **Responsive Design**: Fully responsive UI that works seamlessly on desktop, tablet, and mobile devices.  
+- **Responsive Design**: Fully responsive UI that works seamlessly on desktop, tablet, and mobile devices.
+
+---
 
 ## 🚀 Demo  
 
 👉 **Live Preview**: [To-Do List App Live](https://to-do-list-app-r9oo.vercel.app/)  
+
+---
 
 ## 📂 Project Structure  
 
@@ -30,6 +36,8 @@ A simple and responsive **To-Do List application** built with **HTML**, **CSS**,
 
 ```
 
+---
+
 ## 🛠️ Technologies Used
 
 - HTML5: Markup structure of the app.
@@ -37,6 +45,8 @@ A simple and responsive **To-Do List application** built with **HTML**, **CSS**,
 - CSS3: Styling and layout design.
 
 - JavaScript: Application logic, interactivity, and local storage.
+
+---
 
 ## 📖 How to Use
 
@@ -51,6 +61,8 @@ A simple and responsive **To-Do List application** built with **HTML**, **CSS**,
 ```
 
 2. Open index.html in any modern browser to run the app.
+
+---
    
 ## 💡 Lessons Learned
 
@@ -61,6 +73,8 @@ This project helps beginners understand:
 - Using browser LocalStorage for persistent data.
   
 - Writing modular and maintainable frontend code.
+
+---
   
 ## 🎯 Future Enhancements
 
@@ -69,6 +83,8 @@ This project helps beginners understand:
 - Implement a "dark mode" for better accessibility.
   
 - Add due dates and priorities for tasks.
+
+---
   
 ## 🤝 Contributing
 
@@ -84,6 +100,8 @@ Contributions are welcome!
    
 5. Open a pull request.
 
+---
+
 ## 🙌 Connect with Me
 
 If you like this project, feel free to ⭐ it and connect with me:
@@ -92,6 +110,16 @@ If you like this project, feel free to ⭐ it and connect with me:
 
 - LinkedIn: [LinkedIn Profil](https://www.linkedin.com/in/lahcen-alhiane-0799ba303/)
 
+---
+
+## 📚 Tutorial  
+
+Follow the step-by-step tutorial to understand how this project works and how you can build it yourself:  
+
+👉 **[To-Do List App Tutorial](https://www.youtube.com/watch?v=TN6QKi6hfCY&list=PLYSj6xbWtkznrp8ZsNuulbw524fImYQ-n)**  
+
+---
+
 ## 🔑 Keywords
 
-To-Do List App, HTML CSS JavaScript Project, Beginner JavaScript Tutorial, Web Development Projects, Local Storage Example, Responsive Web Design, Coding Practice for Beginners [Tutorial On YouTube](https://www.youtube.com/watch?v=TN6QKi6hfCY&list=PLYSj6xbWtkznrp8ZsNuulbw524fImYQ-n)
+To-Do List App, HTML CSS JavaScript Project, Beginner JavaScript Tutorial, Web Development Projects, Local Storage Example, Responsive Web Design, Coding Practice for Beginners 
