@@ -44,7 +44,7 @@ A simple and responsive **To-Do List application** built with **HTML**, **CSS**,
    
 ```bash
 
-  git clone https://github.com/onepiece-coding/todo-list-app.git
+  git clone https://github.com/onepiece-coding/To-Do-List-App.git
 
   cd todo-list-app
 
