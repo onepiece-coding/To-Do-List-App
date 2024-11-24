@@ -25,10 +25,15 @@ A simple and responsive **To-Do List application** built with **HTML**, **CSS**,
 ## 📂 Project Structure  
 
 ```plaintext
+
 ├── index.html         # Main HTML file
+
 ├── style.css         # CSS for styling
+
 ├── script.js         # JavaScript logic
+
 └── README.md          # Project documentation
+
 ```
 
 ## 🛠️ Technologies Used
@@ -44,8 +49,11 @@ A simple and responsive **To-Do List application** built with **HTML**, **CSS**,
 1. Clone the repository:
    
 ```bash
+
   git clone https://github.com/onepiece-coding/todo-list-app.git
+
   cd todo-list-app
+
 ```
 
 2. Open index.html in any modern browser to run the app.
